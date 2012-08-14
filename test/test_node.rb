@@ -8,4 +8,9 @@ class TestNode < Test::Unit::TestCase
     assert node.respond_to? :value
   end
 
+  def test_has_left_child
+  	node = Node.new
+  	assert node.respond_to? :left_child
+  end
+
 end
